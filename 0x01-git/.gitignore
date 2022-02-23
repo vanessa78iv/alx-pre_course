@@ -1,0 +1,42 @@
+. Create your answer directory 
+==================
+cd root
+mkdir 0x02_emacs
+
+
+1. Opening 
+==========
+cd 0x02_emacs
+touch opening
+echo C-x C-f > opening
+
+2. Saving 
+===========
+touch saving
+echo C-x C-s > saving
+
+3. Cutting 
+===============
+touch cutting
+echo C-k > cutting
+
+4. Pasting 
+==========
+touch pasting
+echo C-y > pasting
+
+5. Searching 
+==========
+touch searching
+echo C-s > searching
+
+6. Undoing
+==========
+touch undoing
+echo C-x u > undo
+
+
+7. Quitting 
+=============
+touch quitting
+echo C-x C-c > quitting
